@@ -1,0 +1,177 @@
+{
+  "type": "collection",
+  "resourceType": "service",
+  "links": {
+    "self": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services"
+  },
+  "createTypes": {
+    "dnsService": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/dnsservices",
+    "externalService": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/externalservices",
+    "loadBalancerService": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/loadbalancerservices",
+    "networkDriverService": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/networkdriverservices",
+    "service": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services",
+    "storageDriverService": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/storagedriverservices"
+  },
+  "actions": {},
+  "data": [
+    {
+      "id": "1s2915",
+      "type": "service",
+      "links": {
+        "self": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915",
+        "account": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/account",
+        "consumedbyservices": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/consumedbyservices",
+        "consumedservices": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/consumedservices",
+        "instances": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/instances",
+        "networkDrivers": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/networkdrivers",
+        "serviceExposeMaps": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/serviceexposemaps",
+        "serviceLogs": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/servicelogs",
+        "stack": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/stack",
+        "storageDrivers": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/storagedrivers",
+        "containerStats": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/containerstats"
+      },
+      "actions": {
+        "upgrade": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/?action=upgrade",
+        "update": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/?action=update",
+        "remove": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/?action=remove",
+        "removeservicelink": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/?action=removeservicelink",
+        "activate": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/?action=activate",
+        "addservicelink": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/?action=addservicelink",
+        "setservicelinks": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/services\/1s2915\/?action=setservicelinks"
+      },
+      "baseType": "service",
+      "name": "ByqVbIeTf",
+      "state": "inactive",
+      "accountId": "1a51",
+      "assignServiceIpAddress": false,
+      "createIndex": 1,
+      "created": "2018-04-27T07:25:27Z",
+      "createdTS": 1524813927000,
+      "currentScale": 1,
+      "description": null,
+      "externalId": null,
+      "fqdn": null,
+      "healthState": "unhealthy",
+      "instanceIds": [
+        "1i12403"
+      ],
+      "kind": "service",
+      "launchConfig": {
+        "type": "launchConfig",
+        "capAdd": [],
+        "capDrop": [],
+        "dataVolumes": [
+          "82:\/root\/Desktop\/myFile",
+          "userfile:\/data:ro"
+        ],
+        "dataVolumesFrom": [],
+        "devices": [],
+        "dns": [],
+        "dnsSearch": [],
+        "entryPoint": [
+          "startxfce4"
+        ],
+        "imageUuid": "docker:cloudwarelabs\/rstudio:v2.0",
+        "instanceTriggeredStop": "stop",
+        "kind": "container",
+        "labels": {
+          "io.rancher.scheduler.affinity:host_label": "cloudware=true"
+        },
+        "logConfig": {
+          "type": "logConfig",
+          "config": {},
+          "driver": ""
+        },
+        "networkMode": "managed",
+        "ports": [],
+        "privileged": false,
+        "publishAllPorts": false,
+        "readOnly": false,
+        "runInit": false,
+        "secrets": [],
+        "startOnCreate": true,
+        "stdinOpen": true,
+        "system": false,
+        "tty": true,
+        "version": "0",
+        "volumeDriver": "rancher-nfs",
+        "dataVolumesFromLaunchConfigs": [],
+        "vcpu": 1
+      },
+      "lbConfig": null,
+      "linkedServices": null,
+      "metadata": null,
+      "publicEndpoints": null,
+      "removed": null,
+      "retainIp": null,
+      "scale": 1,
+      "scalePolicy": null,
+      "secondaryLaunchConfigs": [],
+      "selectorContainer": null,
+      "selectorLink": null,
+      "stackId": "1st16",
+      "startOnCreate": true,
+      "system": false,
+      "transitioning": "no",
+      "transitioningMessage": null,
+      "transitioningProgress": null,
+      "upgrade": null,
+      "uuid": "9f90d0fa-722a-40e8-8cd5-0e92817d85fe",
+      "vip": null
+    }
+  ],
+  "sortLinks": {
+    "accountId": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=accountId",
+    "createIndex": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=createIndex",
+    "created": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=created",
+    "description": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=description",
+    "externalId": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=externalId",
+    "healthState": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=healthState",
+    "id": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=id",
+    "kind": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=kind",
+    "name": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=name",
+    "removeTime": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=removeTime",
+    "removed": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=removed",
+    "selectorContainer": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=selectorContainer",
+    "selectorLink": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=selectorLink",
+    "skip": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=skip",
+    "stackId": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=stackId",
+    "state": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=state",
+    "system": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=system",
+    "uuid": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=uuid",
+    "vip": "http:\/\/10.2.253.121:8080\/v2-beta\/projects\/1a51\/stacks\/1st16\/services?sort=vip"
+  },
+  "pagination": {
+    "first": null,
+    "previous": null,
+    "next": null,
+    "limit": 100,
+    "total": null,
+    "partial": false
+  },
+  "sort": null,
+  "filters": {
+    "accountId": null,
+    "createIndex": null,
+    "created": null,
+    "description": null,
+    "externalId": null,
+    "healthState": null,
+    "id": null,
+    "kind": null,
+    "name": null,
+    "removeTime": null,
+    "removed": null,
+    "selectorContainer": null,
+    "selectorLink": null,
+    "skip": null,
+    "stackId": null,
+    "state": null,
+    "system": null,
+    "uuid": null,
+    "vip": null
+  },
+  "createDefaults": {
+    "stackId": "1st16"
+  }
+}
